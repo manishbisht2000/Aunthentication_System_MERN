@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+
+# React-specific
+.env.local
+.env.development.local
+.env.production.local
+
+# Coverage
+coverage/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
