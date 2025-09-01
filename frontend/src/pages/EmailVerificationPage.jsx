@@ -9,7 +9,7 @@ const EmailVerificationPage = () => {
     const inputRefs = useRef([])
     const navigate = useNavigate()
 
-    const {email,isLoading,verifyEmail} = useAuthStore()
+    const {error,isLoading,verifyEmail} = useAuthStore()
 
     const handleChange = (index, value) => {
         const newCode = [...code];
